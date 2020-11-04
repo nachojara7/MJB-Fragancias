@@ -1,0 +1,402 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+
+	font-family: "Oxygen Mono", monospace;
+
+}
+
+h1 {
+
+	font-size: 66px;
+	line-height: 80px;
+	color: black;	
+}
+
+p {
+	font-size: 18px;
+	color: black;
+	line-height: 1.8;
+	margin-bottom: 0;
+}
+
+.topmargin-xs {
+
+	margin-top: 15px;
+}
+
+.topmargin-sm {
+
+	margin-top: 30px;
+}
+
+.topmargin-lg {
+
+	margin-top: 60px;
+}
+
+.boton {
+
+	font-size: 20px;
+	padding: 15px 26px;
+	min-width: 160px;
+	border-radius: 2px;
+	display: inline-block;
+	margin-top: 10px;
+
+	
+}
+
+.boton-white {
+
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+
+
+}
+
+.boton i {
+
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.boton:hover{
+
+	color: green;
+}
+
+
+
+.navbar {
+
+	background-color: white;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+	min-height: 100px;
+
+
+}
+
+.nav-link {
+
+	color: black;
+	font-size: 20px;
+
+	
+}
+
+.nav-item {
+
+	padding: 10px 10px 20px;
+}
+
+.nav-link:hover {
+
+	color: green;
+
+}
+
+
+
+.navbar-toggler {
+
+	font-size: 30px;
+
+}
+
+.navbar-toggler:focus {
+
+	outline: none;
+}
+
+
+.frase {
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#pproductos {
+
+	background-color: white;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	
+}
+
+
+.pproductos-container {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+
+.pproductos-details {
+
+	position: absolute;
+	z-index: 9000;
+	
+
+}
+
+.pproductos-details h2 {
+
+	color: black;
+	font-size: 25px;
+
+}
+
+.fotoProducto {
+
+	opacity: 0.5;
+}
+
+
+
+.card {
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 360px;
+    height: 400px;
+ }
+.card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.card .image img {
+    width: 100%;
+    transition: .5s;
+}
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #FFF8E7;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card .details .center p {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 39px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+
+
+#nosotros-index {
+
+	background-image: url("fotos/imagenprueba.jpeg");
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+	
+	
+}
+
+#texto-Nosotros{
+
+	
+	font-size: 25px;
+	color: black;
+
+
+}
+
+
+
+
+.fraseNosotros {
+
+	max-width: 800px;
+	margin: 0 auto 60px auto;
+	text-align: center;
+	
+}
+
+
+
+.footer {
+
+	padding: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin: 30px;
+
+}
+
+.ordenfooter li {
+
+	padding: 15px;
+
+}
+
+
+
+.social a {
+
+	
+	color: black;
+	
+}
+
+
+
+.envios a {
+
+	
+	color: black;
+	
+}
+
+.indexEnvio{
+
+	color: black;
+	display: block;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+	background-image: url(fotos/imagenprueba.jpeg);
+	background-size: cover;
+
+}
+
+
+
+.indexEnvio h2 {
+
+	padding: 50px;
+}
+
+.indexEnvios{
+
+	padding: 50px;
+
+}
+
+.indexEnvios a{
+
+	color: black;
+
+}
+
+.indexEnvioCorreo img{
+
+	padding: 40px;
+}
+
+.indexEnvioMoto img{
+
+	padding: 40px;
+}
+
+
+
+.facebook img{
+
+	padding: 10px;
+}
+
+.instagram img{
+
+	padding: 10px;
+}
+
+.envioCorreo img{
+
+	padding: 10px;
+}
+
+.envioMoto img{
+
+	padding: 10px;
+}
+
+.mercadoPago img{
+
+	padding: 10px;
+}
+
+.efectivo img{
+
+	padding: 10px;
+}
+
+.transferencia img{
+
+	padding: 10px;
+}
+
+.formularioContacto {
+
+	background-image: url("fotos/imagenprueba.jpeg");
+	background-size: cover;
+	margin-top: 70px;
+	margin-bottom: 70px;
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+
+	h1 { font-size: 40px; line-height: normal;
+
+	 }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+

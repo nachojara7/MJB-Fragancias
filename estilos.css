@@ -218,10 +218,11 @@ p {
 
 #nosotros-index {
 
-	background-image: url("fotos/hojaPalmera.jpeg");
+	background-image: url("fotos/hojapalmera.jpeg");
 	background-size: cover;
 	padding: 50px;
-	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 
 
 	
@@ -344,9 +345,9 @@ p {
 	display: block;
 	flex-direction: row;
 	justify-content: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-image: url(fotos/hojaPalmera.jpeg);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-image: url(fotos/hojapalmera.jpeg);
 	background-size: cover;
 
 }
@@ -386,9 +387,11 @@ p {
 
 	color: black;
 	display: block;
-	margin: 10px;
-	background-image: url(fotos/hojaPalmera.jpeg);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-image: url(fotos/hojapalmera.jpeg);
 	background-size: cover;
+
 
 }
 
@@ -476,7 +479,7 @@ p {
 
 .formularioContacto {
 
-	background-image: url("fotos/hojaPalmera.jpeg");
+	background-image: url("fotos/hojapalmera.jpeg");
 	background-size: cover;
 	margin: 10px;
 }
@@ -558,10 +561,11 @@ p {
 
 	#nosotros-index {
 
-	background-image: url("fotos/hojaPalmera.jpeg");
+	background-image: url("fotos/hojapalmera.jpeg");
 	background-size: cover;
 	padding: 50px;
-	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	
 
 	}
@@ -637,10 +641,11 @@ p {
 
 	#nosotros-index {
 
-	background-image: url("fotos/hojaPalmera.jpeg");
+	background-image: url("fotos/hojapalmera.jpeg");
 	background-size: cover;
 	padding: 50px;
-	margin: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	
 	}
 
